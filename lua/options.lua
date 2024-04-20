@@ -61,4 +61,7 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
+--tabstops and shiftwidth
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
 -- vim: ts=2 sts=2 sw=2 et
