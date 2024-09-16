@@ -51,5 +51,6 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 -- vim: ts=2 sts=2 sw=2 et
 
 -- personal keymaps
-vim.keymap.set({ 'n', 'i' }, '<C-s>', '<Cmd>:w<CR>')
-vim.keymap.set('i', '<jj>', '<Esc>')
+vim.keymap.set({ 'n', 'i' }, '<C-s>', '<Cmd>:w<CR>', { desc = 'Save Document' })
+
+vim.keymap.set('n', '<C-e>', '<Cmd>:Explore<CR>', { desc = 'File [e]xplorer' })
